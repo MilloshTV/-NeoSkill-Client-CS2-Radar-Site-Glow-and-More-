@@ -84,19 +84,5 @@ This software is provided for educational / authorized use only. You are respons
 
 ---
 
-## Upload to GitHub
-
-1. Create a new empty repository on GitHub
-2. Install [Git for Windows](https://git-scm.com/download/win) if needed
-3. In this folder:
-
-```bat
-git init
-git add .
-git commit -m "Initial NeoSkill client release"
-git branch -M main
-git remote add origin https://github.com/YOUR_USER/YOUR_REPO.git
-git push -u origin main
-```
 
 Do **not** commit server secrets, Stripe keys, or database passwords. This folder only contains the client release package and docs.
