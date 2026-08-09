@@ -83,20 +83,3 @@ Unterstützt: Deutsch, Englisch, Französisch, Spanisch, Türkisch, Polnisch, Ru
 Nur für den eigenen, erlaubten Gebrauch. Du bist selbst für die Einhaltung der Spielregeln und Gesetze verantwortlich. Nutzung auf eigene Gefahr.
 
 ---
-
-## Auf GitHub hochladen
-
-1. Auf GitHub ein leeres Repository anlegen
-2. Bei Bedarf [Git for Windows](https://git-scm.com/download/win) installieren
-3. In diesem Ordner:
-
-```bat
-git init
-git add .
-git commit -m "Initial NeoSkill client release"
-git branch -M main
-git remote add origin https://github.com/DEIN_USER/DEIN_REPO.git
-git push -u origin main
-```
-
-**Keine** Server-Secrets, Stripe-Keys oder Datenbank-Passwörter committen. Dieser Ordner enthält nur das Client-Release und die Doku.
