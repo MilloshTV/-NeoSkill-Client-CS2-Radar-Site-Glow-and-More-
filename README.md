@@ -84,5 +84,3 @@ This software is provided for educational / authorized use only. You are respons
 
 ---
 
-
-Do **not** commit server secrets, Stripe keys, or database passwords. This folder only contains the client release package and docs.
